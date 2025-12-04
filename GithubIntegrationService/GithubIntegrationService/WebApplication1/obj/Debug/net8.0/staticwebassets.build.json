@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uVWryAZhCMqAPVQILDJCEcbgaeit3xSLUrX4l0bN2x0=",
+  "Source": "CvPortfolio.Api",
+  "BasePath": "_content/CvPortfolio.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

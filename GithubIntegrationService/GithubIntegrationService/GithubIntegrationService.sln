@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubIntegrationService", "GithubIntegrationService\GithubIntegrationService.csproj", "{D13FDF57-93AA-4FAB-B9BC-4B8D0D43C44D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CvPortfolio.Api", "WebApplication1\CvPortfolio.Api.csproj", "{35D19235-56C8-4AC8-85FB-FE679FDBC0BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D13FDF57-93AA-4FAB-B9BC-4B8D0D43C44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D13FDF57-93AA-4FAB-B9BC-4B8D0D43C44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D13FDF57-93AA-4FAB-B9BC-4B8D0D43C44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D13FDF57-93AA-4FAB-B9BC-4B8D0D43C44D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D19235-56C8-4AC8-85FB-FE679FDBC0BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D19235-56C8-4AC8-85FB-FE679FDBC0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D19235-56C8-4AC8-85FB-FE679FDBC0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D19235-56C8-4AC8-85FB-FE679FDBC0BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F1DC1E1-04BC-454D-ABF1-E59756203C22}
+	EndGlobalSection
+EndGlobal
