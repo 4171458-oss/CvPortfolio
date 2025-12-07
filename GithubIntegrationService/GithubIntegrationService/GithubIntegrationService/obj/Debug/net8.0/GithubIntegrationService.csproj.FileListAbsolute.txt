@@ -1,0 +1,13 @@
+C:\Users\user1\Desktop\תכנות-שנה ב\פרקטיקוד\5\GithubIntegrationService\GithubIntegrationService\GithubIntegrationService\bin\Debug\net8.0\GithubIntegrationService.deps.json
+C:\Users\user1\Desktop\תכנות-שנה ב\פרקטיקוד\5\GithubIntegrationService\GithubIntegrationService\GithubIntegrationService\bin\Debug\net8.0\GithubIntegrationService.dll
+C:\Users\user1\Desktop\תכנות-שנה ב\פרקטיקוד\5\GithubIntegrationService\GithubIntegrationService\GithubIntegrationService\bin\Debug\net8.0\GithubIntegrationService.pdb
+C:\Users\user1\Desktop\תכנות-שנה ב\פרקטיקוד\5\GithubIntegrationService\GithubIntegrationService\GithubIntegrationService\obj\Debug\net8.0\GithubIntegrationService.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\תכנות-שנה ב\פרקטיקוד\5\GithubIntegrationService\GithubIntegrationService\GithubIntegrationService\obj\Debug\net8.0\GithubIntegrationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\תכנות-שנה ב\פרקטיקוד\5\GithubIntegrationService\GithubIntegrationService\GithubIntegrationService\obj\Debug\net8.0\GithubIntegrationService.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\תכנות-שנה ב\פרקטיקוד\5\GithubIntegrationService\GithubIntegrationService\GithubIntegrationService\obj\Debug\net8.0\GithubIntegrationService.AssemblyInfo.cs
+C:\Users\user1\Desktop\תכנות-שנה ב\פרקטיקוד\5\GithubIntegrationService\GithubIntegrationService\GithubIntegrationService\obj\Debug\net8.0\GithubIntegrationService.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\תכנות-שנה ב\פרקטיקוד\5\GithubIntegrationService\GithubIntegrationService\GithubIntegrationService\obj\Debug\net8.0\GithubIntegrationService.sourcelink.json
+C:\Users\user1\Desktop\תכנות-שנה ב\פרקטיקוד\5\GithubIntegrationService\GithubIntegrationService\GithubIntegrationService\obj\Debug\net8.0\GithubIntegrationService.dll
+C:\Users\user1\Desktop\תכנות-שנה ב\פרקטיקוד\5\GithubIntegrationService\GithubIntegrationService\GithubIntegrationService\obj\Debug\net8.0\refint\GithubIntegrationService.dll
+C:\Users\user1\Desktop\תכנות-שנה ב\פרקטיקוד\5\GithubIntegrationService\GithubIntegrationService\GithubIntegrationService\obj\Debug\net8.0\GithubIntegrationService.pdb
+C:\Users\user1\Desktop\תכנות-שנה ב\פרקטיקוד\5\GithubIntegrationService\GithubIntegrationService\GithubIntegrationService\obj\Debug\net8.0\ref\GithubIntegrationService.dll

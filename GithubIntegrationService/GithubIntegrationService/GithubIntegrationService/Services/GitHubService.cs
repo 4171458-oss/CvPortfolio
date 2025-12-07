@@ -19,6 +19,12 @@ namespace GithubIntegrationService.Services
                 Credentials = new Credentials(_options.Token)
             };
         }
+        public async Task<DateTime?> GetLastUserActivityAsync()
+        {
+            var events = await _client.Activity.Events.GetAllUserPerformed(_options.UserName);
+
+            return events.FirstOrDefault()?.CreatedAt.UtcDateTime;
+        }
 
         public async Task<IEnumerable<RepoDto>> GetPortfolioAsync()
         {

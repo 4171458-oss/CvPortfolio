@@ -3,41 +3,65 @@ using Microsoft.Extensions.Caching.Memory;
 
 namespace GithubIntegrationService.Services
 {
-    public class CachedGitHubService : IGitHubService
-    {
-        private readonly IGitHubService _inner;
-        private readonly IMemoryCache _cache;
-
-        public CachedGitHubService(IGitHubService inner, IMemoryCache cache)
+   
+        public class CachedGitHubService : IGitHubService
         {
-            _inner = inner;
-            _cache = cache;
-        }
+            private readonly IGitHubService _inner;
+            private readonly IMemoryCache _cache;
 
-        public async Task<IEnumerable<RepoDto>> GetPortfolioAsync()
-        {
-            if (_cache.TryGetValue("portfolio", out IEnumerable<RepoDto> cached))
-                return cached;
+            private const string PortfolioKey = "portfolio";
+            private const string PortfolioActivityKey = "portfolio-last-activity";
 
-            var data = await _inner.GetPortfolioAsync();
+            public CachedGitHubService(IGitHubService inner, IMemoryCache cache)
+            {
+                _inner = inner;
+                _cache = cache;
+            }
 
-            _cache.Set("portfolio", data, TimeSpan.FromMinutes(5));
+            public async Task<IEnumerable<RepoDto>> GetPortfolioAsync()
+            {
+                var lastActivity = await _inner.GetLastUserActivityAsync();
 
-            return data;
-        }
+              
+                if (_cache.TryGetValue(PortfolioKey, out IEnumerable<RepoDto> cachedData) &&
+                    _cache.TryGetValue(PortfolioActivityKey, out DateTime cachedActivity))
+                {
+                
+                    if (lastActivity != null && lastActivity <= cachedActivity)
+                    {
+                        return cachedData;
+                    }
+                }
 
-        public async Task<IEnumerable<RepoDto>> SearchAsync(string? name, string? language, string? user)
-        {
-            string key = $"search-{name}-{language}-{user}";
+            
+                var freshData = await _inner.GetPortfolioAsync();
 
-            if (_cache.TryGetValue(key, out IEnumerable<RepoDto> cached))
-                return cached;
+                _cache.Set(PortfolioKey, freshData);
+                _cache.Set(PortfolioActivityKey, lastActivity ?? DateTime.UtcNow);
 
-            var data = await _inner.SearchAsync(name, language, user);
+                return freshData;
+            }
 
-            _cache.Set(key, data, TimeSpan.FromMinutes(5));
+            public async Task<IEnumerable<RepoDto>> SearchAsync(string? name, string? language, string? user)
+            {
+                string key = $"search-{name}-{language}-{user}";
 
-            return data;
+                if (_cache.TryGetValue(key, out IEnumerable<RepoDto> cached))
+                    return cached;
+
+                var data = await _inner.SearchAsync(name, language, user);
+
+                _cache.Set(key, data);
+
+                return data;
+            }
+
+            public Task<DateTime?> GetLastUserActivityAsync()
+            {
+             
+                return _inner.GetLastUserActivityAsync();
+            }
         }
     }
-}
+
+

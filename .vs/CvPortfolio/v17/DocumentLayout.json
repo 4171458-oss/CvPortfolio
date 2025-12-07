@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA-\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\5\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71609F36-75EB-416C-A96B-22FE458EDCB9}|GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA-\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\5\\githubintegrationservice\\githubintegrationservice\\githubintegrationservice\\services\\cachedgithubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71609F36-75EB-416C-A96B-22FE458EDCB9}|GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService.csproj|solutionrelative:githubintegrationservice\\githubintegrationservice\\githubintegrationservice\\services\\cachedgithubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71609F36-75EB-416C-A96B-22FE458EDCB9}|GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA-\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\5\\githubintegrationservice\\githubintegrationservice\\githubintegrationservice\\services\\githubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71609F36-75EB-416C-A96B-22FE458EDCB9}|GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService.csproj|solutionrelative:githubintegrationservice\\githubintegrationservice\\githubintegrationservice\\services\\githubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71609F36-75EB-416C-A96B-22FE458EDCB9}|GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA-\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\5\\githubintegrationservice\\githubintegrationservice\\githubintegrationservice\\services\\igithubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71609F36-75EB-416C-A96B-22FE458EDCB9}|GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService.csproj|solutionrelative:githubintegrationservice\\githubintegrationservice\\githubintegrationservice\\services\\igithubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GitHubService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA-\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\5\\GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\Services\\GitHubService.cs",
+              "RelativeDocumentMoniker": "GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\Services\\GitHubService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA-\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\5\\GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\Services\\GitHubService.cs",
+              "RelativeToolTip": "GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\Services\\GitHubService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T15:01:23.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGitHubService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA-\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\5\\GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\Services\\IGitHubService.cs",
+              "RelativeDocumentMoniker": "GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\Services\\IGitHubService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA-\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\5\\GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\Services\\IGitHubService.cs",
+              "RelativeToolTip": "GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\Services\\IGitHubService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T15:00:15.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CachedGitHubService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA-\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\5\\GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\Services\\CachedGitHubService.cs",
+              "RelativeDocumentMoniker": "GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\Services\\CachedGitHubService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA-\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\5\\GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\Services\\CachedGitHubService.cs",
+              "RelativeToolTip": "GithubIntegrationService\\GithubIntegrationService\\GithubIntegrationService\\Services\\CachedGitHubService.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAA2wEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T14:46:42.403Z",
+              "EditorCaption": ""
             }
           ]
         }
